@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Section | Soumojit Shome</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section>
+
+        <div class="outer_box">
+            <div class="comment_input">
+                <form name="submit-to-google-sheet">
+
+                    <input type="text" name="sender_name" id="name" placeholder="Enter Your Name" maxlength="10">
+
+                    <input type="number" name="BCode" id="bcode">
+
+                    <textarea id="cmnt" name="message" rows="4" cols="50" placeholder="Write your comment here" maxlength="150"></textarea>
+
+
+                    <span id="wait_mess">Please Wait....</span>
+                    <span id="tnx_mess">Thanks</span>
+                    <button onclick="wait()" type="submit" value="Register" class="btn" id="submit-btn"
+                        disabled>Submit</button>
+
+                </form>
+            </div>
+
+            <div class="heading">
+                <p>Comment your thoughts</p>
+            </div>
+            <div class="comments_sec">
+
+                <div class="all_comments">
+
+                    <!-- <div class="comment">
+                        <div class="sndr_name"><i style="font-size:24px" class="fa">&#xf2be;&nbsp;</i>name&emsp;time
+                        </div>
+
+                        <span class="comment_message">text Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</span>
+                        <button class="reply_btn" onclick="click_on_reply(0)">Reply</button>
+
+
+                        <div class="reply_box">
+
+                            <div class="reply_msg">
+                                <div class="sndr_name"><i style="font-size:24px"
+                                        class="fa">&#xf2be;&nbsp;</i>name&emsp;time
+                                </div>
+
+                                <span class="comment_message replymsg">text Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.</span>
+                            </div>
+
+
+                        </div>
+
+                    </div> -->
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script> -->
+
+</body>
+
+<script src="script.js"></script>
+
+
+</html>
